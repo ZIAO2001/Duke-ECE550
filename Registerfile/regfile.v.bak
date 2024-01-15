@@ -1,0 +1,56 @@
+module regfile (
+    clock,
+    ctrl_writeEnable,
+    ctrl_reset, ctrl_writeReg,
+    ctrl_readRegA, ctrl_readRegB, data_writeReg,
+    data_readRegA, data_readRegB
+);
+
+   input clock, ctrl_writeEnable, ctrl_reset;
+   input [4:0] ctrl_writeReg, ctrl_readRegA, ctrl_readRegB;
+   input [31:0] data_writeReg;
+
+   output [31:0] data_readRegA, data_readRegB;
+
+   /* YOUR CODE HERE */
+	
+	wire [31:0]write_oh,write_en;
+	wire [31:0]out;
+	
+	decoder_32 write_de(ctrl_writeReg,write_oh);
+	and32_1 and_oh(write_oh,ctrl_writeEnable,write_en);
+	dff_32 dff0(data_writeReg,write_en[0],ctrl_reset,clock,out[0]);
+	dff_32 dff1(data_writeReg,write_en[1],ctrl_reset,clock,out[1]);
+	dff_32 dff2(data_writeReg,write_en[2],ctrl_reset,clock,out[2]);
+	dff_32 dff3(data_writeReg,write_en[3],ctrl_reset,clock,out[3]);
+	dff_32 dff4(data_writeReg,write_en[4],ctrl_reset,clock,out[4]);
+	dff_32 dff5(data_writeReg,write_en[5],ctrl_reset,clock,out[5]);
+	dff_32 dff6(data_writeReg,write_en[6],ctrl_reset,clock,out[6]);
+	dff_32 dff7(data_writeReg,write_en[7],ctrl_reset,clock,out[7]);
+	dff_32 dff8(data_writeReg,write_en[8],ctrl_reset,clock,out[8]);
+	dff_32 dff9(data_writeReg,write_en[9],ctrl_reset,clock,out[9]);
+	dff_32 dff10(data_writeReg,write_en[10],ctrl_reset,clock,out[10]);
+	dff_32 dff11(data_writeReg,write_en[11],ctrl_reset,clock,out[11]);
+	dff_32 dff12(data_writeReg,write_en[12],ctrl_reset,clock,out[12]);
+	dff_32 dff13(data_writeReg,write_en[13],ctrl_reset,clock,out[13]);
+	dff_32 dff14(data_writeReg,write_en[14],ctrl_reset,clock,out[14]);
+	dff_32 dff15(data_writeReg,write_en[15],ctrl_reset,clock,out[15]);
+	dff_32 dff16(data_writeReg,write_en[16],ctrl_reset,clock,out[16]);
+	dff_32 dff17(data_writeReg,write_en[17],ctrl_reset,clock,out[17]);
+	dff_32 dff18(data_writeReg,write_en[18],ctrl_reset,clock,out[18]);
+	dff_32 dff19(data_writeReg,write_en[19],ctrl_reset,clock,out[19]);
+	dff_32 dff20(data_writeReg,write_en[20],ctrl_reset,clock,out[20]);
+	dff_32 dff21(data_writeReg,write_en[21],ctrl_reset,clock,out[21]);
+	dff_32 dff22(data_writeReg,write_en[22],ctrl_reset,clock,out[22]);
+	dff_32 dff23(data_writeReg,write_en[23],ctrl_reset,clock,out[23]);
+	dff_32 dff24(data_writeReg,write_en[24],ctrl_reset,clock,out[24]);
+	dff_32 dff25(data_writeReg,write_en[25],ctrl_reset,clock,out[25]);
+	dff_32 dff26(data_writeReg,write_en[26],ctrl_reset,clock,out[26]);
+	dff_32 dff27(data_writeReg,write_en[27],ctrl_reset,clock,out[27]);
+	dff_32 dff28(data_writeReg,write_en[28],ctrl_reset,clock,out[28]);
+	dff_32 dff29(data_writeReg,write_en[29],ctrl_reset,clock,out[29]);
+	dff_32 dff30(data_writeReg,write_en[30],ctrl_reset,clock,out[30]);
+	dff_32 dff31(data_writeReg,write_en[31],ctrl_reset,clock,out[31]);
+
+
+endmodule

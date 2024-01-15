@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus/ECE550/Registerfile/simulation/modelsim
+vand32_1
+Z1 !s110 1695712050
+!i10b 1
+!s100 l_CH@Db;Aag[B[oLFd]e11
+IjM5DoPZS=n3_d6O]ZfBN<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695539863
+8D:/Quartus/ECE550/Registerfile/and32_1.v
+FD:/Quartus/ECE550/Registerfile/and32_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1695712050.000000
+!s107 D:/Quartus/ECE550/Registerfile/and32_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/and32_1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Quartus/ECE550/Registerfile
+Z7 tCvgOpt 0
+vdecoder_32
+R1
+!i10b 1
+!s100 =HgaJZLmGD1NZOdmi6[Da1
+I4T>gc^TT`a=Q5Oi96IO=l2
+R2
+R0
+w1695539927
+8D:/Quartus/ECE550/Registerfile/decoder_32.v
+FD:/Quartus/ECE550/Registerfile/decoder_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/decoder_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/decoder_32.v|
+!i113 1
+R5
+R6
+R7
+vdff_32
+R1
+!i10b 1
+!s100 gRDf^1PMeZ4H4<WIOo1eU0
+IgzL8W5OQ1E6bUnz_NIWoj0
+R2
+R0
+w1695542903
+8D:/Quartus/ECE550/Registerfile/dff_32.v
+FD:/Quartus/ECE550/Registerfile/dff_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/dff_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/dff_32.v|
+!i113 1
+R5
+R6
+R7
+vdflipflop
+R1
+!i10b 1
+!s100 Tlg8flQVkGQQ_PmXTbj5Y3
+I9f3IH1Qa0iMSEY`28TKaA0
+R2
+R0
+w1695543382
+8D:/Quartus/ECE550/Registerfile/dflipflop.v
+FD:/Quartus/ECE550/Registerfile/dflipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/dflipflop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/dflipflop.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R1
+!i10b 1
+!s100 IMea;9ie3i:`9IOM78T1K0
+I_gFCE;:V`QBJcE@OF1<K83
+R2
+R0
+w1695543481
+8D:/Quartus/ECE550/Registerfile/regfile.v
+FD:/Quartus/ECE550/Registerfile/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/regfile.v|
+!i113 1
+R5
+R6
+R7
+vregfile_tb
+!s110 1695712051
+!i10b 1
+!s100 ^PDdfBlmINA^B1BBhYo220
+I0QX2El9l_i]9jlIQ^zJHG3
+R2
+R0
+w1695712017
+8D:/Quartus/ECE550/Registerfile/regfile_tb.v
+FD:/Quartus/ECE550/Registerfile/regfile_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/regfile_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/regfile_tb.v|
+!i113 1
+R5
+R6
+R7
+vtristate
+R1
+!i10b 1
+!s100 0@[_VX0XRIFE]XRI>[EQ[3
+I2`O0C7P3UZDhj0:d9aC?n3
+R2
+R0
+w1695540198
+8D:/Quartus/ECE550/Registerfile/tristate.v
+FD:/Quartus/ECE550/Registerfile/tristate.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Registerfile/tristate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Registerfile|D:/Quartus/ECE550/Registerfile/tristate.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,13 @@
+module d_latch(e,d,q,q0);
+
+	input e,d;
+	output q,q0;
+	wire w0,w1,d0;
+	
+	not not_d(d0,d);
+	and and_top(w0,e,d0);
+	and and_bot(w1,e,d);
+	
+	srlatch sr(w0,w1,q,q0);
+	
+endmodule
