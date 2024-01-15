@@ -1,0 +1,378 @@
+# Reading D:/Quartus/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/adder_8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/adder_8.v 
+# -- Compiling module adder_8
+# 
+# Top level modules:
+# 	adder_8
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/adder_16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/adder_16.v 
+# -- Compiling module adder_16
+# 
+# Top level modules:
+# 	adder_16
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_2_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_2_1.v 
+# -- Compiling module mux_2_1
+# 
+# Top level modules:
+# 	mux_2_1
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_2_8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_2_8.v 
+# -- Compiling module mux_2_8
+# 
+# Top level modules:
+# 	mux_2_8
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux2_16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux2_16.v 
+# -- Compiling module mux_2_16
+# 
+# Top level modules:
+# 	mux_2_16
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/adder_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/adder_32.v 
+# -- Compiling module adder_32
+# 
+# Top level modules:
+# 	adder_32
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/subtractor_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/subtractor_32.v 
+# -- Compiling module subtractor_32
+# 
+# Top level modules:
+# 	subtractor_32
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/bitwiseAnd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:20 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/bitwiseAnd.v 
+# -- Compiling module bitwiseAnd
+# 
+# Top level modules:
+# 	bitwiseAnd
+# End time: 16:42:20 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/bitwiseOr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/bitwiseOr.v 
+# -- Compiling module bitwiseOr
+# 
+# Top level modules:
+# 	bitwiseOr
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/sll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/sll.v 
+# -- Compiling module sll
+# 
+# Top level modules:
+# 	sll
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/sra.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/sra.v 
+# -- Compiling module sra
+# 
+# Top level modules:
+# 	sra
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_4_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_4_32.v 
+# -- Compiling module mux_4_32
+# 
+# Top level modules:
+# 	mux_4_32
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_2_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_2_32.v 
+# -- Compiling module mux_2_32
+# 
+# Top level modules:
+# 	mux_2_32
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_8_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_8_32.v 
+# -- Compiling module mux_8_32
+# 
+# Top level modules:
+# 	mux_8_32
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_4_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_4_1.v 
+# -- Compiling module mux_4_1
+# 
+# Top level modules:
+# 	mux_4_1
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/mux_8_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/mux_8_1.v 
+# -- Compiling module mux_8_1
+# 
+# Top level modules:
+# 	mux_8_1
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU {D:/Quartus/ECE550/ALU/alu_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:42:21 on Sep 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Quartus/ECE550/ALU" D:/Quartus/ECE550/ALU/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 16:42:21 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 16:42:21 on Sep 14,2023
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.adder_32
+# Loading work.adder_16
+# Loading work.adder_8
+# Loading work.full_adder
+# Loading work.mux_2_8
+# Loading work.mux_2_1
+# Loading work.mux_2_16
+# Loading work.subtractor_32
+# Loading work.bitwiseAnd
+# Loading work.bitwiseOr
+# Loading work.sll
+# Loading work.sra
+# Loading work.mux_8_32
+# Loading work.mux_4_32
+# Loading work.mux_2_32
+# Loading work.mux_8_1
+# Loading work.mux_4_1
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(20): [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(20): [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(20): [PCDPC] - Port size (33) does not match connection size (32) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(11): [PCDPC] - Port size (16) does not match connection size (17) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder/adder1 File: D:/Quartus/ECE550/ALU/adder_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(12): [PCDPC] - Port size (16) does not match connection size (17) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder/adder2 File: D:/Quartus/ECE550/ALU/adder_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(13): [PCDPC] - Port size (16) does not match connection size (17) for port 'in0'. The port definition is at: D:/Quartus/ECE550/ALU/mux2_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder/mux_sum File: D:/Quartus/ECE550/ALU/mux2_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(13): [PCDPC] - Port size (16) does not match connection size (17) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux2_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/myadder/mux_sum File: D:/Quartus/ECE550/ALU/mux2_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(49): [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(49): [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(49): [PCDPC] - Port size (33) does not match connection size (32) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub File: D:/Quartus/ECE550/ALU/adder_32.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(11): [PCDPC] - Port size (16) does not match connection size (17) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub/adder1 File: D:/Quartus/ECE550/ALU/adder_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(12): [PCDPC] - Port size (16) does not match connection size (17) for port 'sum'. The port definition is at: D:/Quartus/ECE550/ALU/adder_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub/adder2 File: D:/Quartus/ECE550/ALU/adder_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(13): [PCDPC] - Port size (16) does not match connection size (17) for port 'in0'. The port definition is at: D:/Quartus/ECE550/ALU/mux2_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub/mux_sum File: D:/Quartus/ECE550/ALU/mux2_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/adder_32.v(13): [PCDPC] - Port size (16) does not match connection size (17) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux2_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/sub/mux_sum File: D:/Quartus/ECE550/ALU/mux2_16.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(86): [PCDPC] - Port size (1) does not match connection size (32) for port 'in0'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/isEqual_mux File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/subtractor_32.v(86): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mysubtractor/isEqual_mux File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(22): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux0_0 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux1_0 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux1_1 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux2_0 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(92): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux2_1 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(93): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux2_2 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(94): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux2_3 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(125): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_0 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(126): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_1 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(127): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_2 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(128): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_3 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(129): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_4 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(130): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_5 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(131): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_6 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(132): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux3_7 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_0 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(160): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_1 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(161): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_2 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(162): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_3 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(163): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_4 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(164): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_5 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(165): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_6 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(166): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_7 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(167): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_8 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(168): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_9 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(169): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_10 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(170): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_11 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(171): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_12 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(172): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_13 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(173): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_14 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/sll.v(174): [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: D:/Quartus/ECE550/ALU/mux_2_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/mySll/mux4_15 File: D:/Quartus/ECE550/ALU/mux_2_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in2'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in4'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in5'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in6'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'in7'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/overflow_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in0'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in2'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in4'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in5'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in6'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'in7'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isNotEqual_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in0'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in2'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in4'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in5'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in6'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# ** Warning: (vsim-3015) D:/Quartus/ECE550/ALU/alu.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'in7'. The port definition is at: D:/Quartus/ECE550/ALU/mux_8_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/isLessThan_mux File: D:/Quartus/ECE550/ALU/mux_8_1.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# Break key hit
+# Simulation stop requested.
+# End time: 18:57:42 on Sep 14,2023, Elapsed time: 2:15:21
+# Errors: 0, Warnings: 69

@@ -1,0 +1,430 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus/ECE550/ALU/simulation/modelsim
+vadder_16
+Z1 !s110 1694680940
+!i10b 1
+!s100 AHjO=^kIV2mhQAX]WzS1_2
+I_jGV@G7K6jS<5@6B@1Zfc3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693845867
+8D:/Quartus/ECE550/ALU/adder_16.v
+FD:/Quartus/ECE550/ALU/adder_16.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1694680940.000000
+!s107 D:/Quartus/ECE550/ALU/adder_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/adder_16.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Quartus/ECE550/ALU
+Z7 tCvgOpt 0
+vadder_32
+R1
+!i10b 1
+!s100 =GnLX[2lKdJEm_NFVlMPz3
+I_b]fSjQRR::3;hkCY5GYl1
+R2
+R0
+w1693845859
+8D:/Quartus/ECE550/ALU/adder_32.v
+FD:/Quartus/ECE550/ALU/adder_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/adder_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/adder_32.v|
+!i113 1
+R5
+R6
+R7
+vadder_8
+R1
+!i10b 1
+!s100 nfA5FmVB@E>YPCScQi[Ka0
+I5RViOgm3=mhGoR]7HlnFI3
+R2
+R0
+w1693845878
+8D:/Quartus/ECE550/ALU/adder_8.v
+FD:/Quartus/ECE550/ALU/adder_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/adder_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/adder_8.v|
+!i113 1
+R5
+R6
+R7
+valu
+R1
+!i10b 1
+!s100 eHR6N5?BRdDa<J5dG>HOR1
+I?9LMVDAFNfVg866B]i6c71
+R2
+R0
+w1694519023
+8D:/Quartus/ECE550/ALU/alu.v
+FD:/Quartus/ECE550/ALU/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_tb
+Z8 !s110 1694680941
+!i10b 1
+!s100 iG4YBZ;Go<Rz>n9e:DE@_0
+IPe9FoH_^HjMS4R^5Pk@]d0
+R2
+R0
+w1693846917
+8D:/Quartus/ECE550/ALU/alu_tb.v
+FD:/Quartus/ECE550/ALU/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1694680941.000000
+!s107 D:/Quartus/ECE550/ALU/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vbitwiseAnd
+R1
+!i10b 1
+!s100 UN5M3XUW[>;1RFEGN7BRE3
+Ih;n6mj`VZ^oA:k@]]nC=f1
+R2
+R0
+w1693847262
+8D:/Quartus/ECE550/ALU/bitwiseAnd.v
+FD:/Quartus/ECE550/ALU/bitwiseAnd.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/bitwiseAnd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/bitwiseAnd.v|
+!i113 1
+R5
+R6
+R7
+nbitwise@and
+vbitwiseOr
+R8
+!i10b 1
+!s100 0KiLeG`YGG9RA@0E1a;G83
+IG`eU9Q[co81HJbRbLWePR1
+R2
+R0
+w1693847484
+8D:/Quartus/ECE550/ALU/bitwiseOr.v
+FD:/Quartus/ECE550/ALU/bitwiseOr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/bitwiseOr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/bitwiseOr.v|
+!i113 1
+R5
+R6
+R7
+nbitwise@or
+vfull_adder
+R1
+!i10b 1
+!s100 a@70ZC7[<BNaO3doV>O>:2
+IdEYP7El]H45gg4n4LR0lK2
+R2
+R0
+w1693826829
+8D:/Quartus/ECE550/ALU/full_adder.v
+FD:/Quartus/ECE550/ALU/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vmux_2_1
+R1
+!i10b 1
+!s100 FYg1d<@0?2K]X<a8GTA^>2
+Ic3]JTZgzSh57HdnDUMJjK2
+R2
+R0
+w1693827914
+8D:/Quartus/ECE550/ALU/mux_2_1.v
+FD:/Quartus/ECE550/ALU/mux_2_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/mux_2_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_2_1.v|
+!i113 1
+R5
+R6
+R7
+vmux_2_16
+R1
+!i10b 1
+!s100 31ojK3z70iWY@F8UV[:Nk0
+IcLnV?=9QbNFU@3>CXLTIF2
+R2
+R0
+w1693840703
+8D:/Quartus/ECE550/ALU/mux2_16.v
+FD:/Quartus/ECE550/ALU/mux2_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/mux2_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux2_16.v|
+!i113 1
+R5
+R6
+R7
+vmux_2_32
+R8
+!i10b 1
+!s100 55HPHSAC`jh5G_4n^_GW63
+ICI;f`FUbFZkg=KG5C5QQ[2
+R2
+R0
+w1693910073
+8D:/Quartus/ECE550/ALU/mux_2_32.v
+FD:/Quartus/ECE550/ALU/mux_2_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/mux_2_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_2_32.v|
+!i113 1
+R5
+R6
+R7
+vmux_2_8
+R1
+!i10b 1
+!s100 I`1=7o8OlU?BHhU_2Hi_W2
+IdHjXAoFk<hnz60eUP67z>1
+R2
+R0
+w1693828290
+8D:/Quartus/ECE550/ALU/mux_2_8.v
+FD:/Quartus/ECE550/ALU/mux_2_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/mux_2_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_2_8.v|
+!i113 1
+R5
+R6
+R7
+vmux_4_1
+R8
+!i10b 1
+!s100 XU80fC65<znLhk1g^]Jl93
+IKB2IA<5C@9?1?c^Cz>UoX2
+R2
+R0
+w1693911031
+8D:/Quartus/ECE550/ALU/mux_4_1.v
+FD:/Quartus/ECE550/ALU/mux_4_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/mux_4_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_4_1.v|
+!i113 1
+R5
+R6
+R7
+vmux_4_32
+R8
+!i10b 1
+!s100 7MD@<Vk;nVhXkgb5I1^1T2
+IRQkgLk5Zf7jPkMI5>jVzb3
+R2
+R0
+w1693910110
+8D:/Quartus/ECE550/ALU/mux_4_32.v
+FD:/Quartus/ECE550/ALU/mux_4_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/mux_4_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_4_32.v|
+!i113 1
+R5
+R6
+R7
+vmux_8_1
+R8
+!i10b 1
+!s100 dZHQ`9>BeQ8f7SBVIf?j<1
+I>VP]?G@>=1Ra]27D=<?[S0
+R2
+R0
+w1693911030
+8D:/Quartus/ECE550/ALU/mux_8_1.v
+FD:/Quartus/ECE550/ALU/mux_8_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/mux_8_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_8_1.v|
+!i113 1
+R5
+R6
+R7
+vmux_8_32
+R8
+!i10b 1
+!s100 II37d;Ck1?H?:`M1k@cCZ2
+IcBoPEn0GeoMG^1LcecnCb1
+R2
+R0
+w1693911626
+8D:/Quartus/ECE550/ALU/mux_8_32.v
+FD:/Quartus/ECE550/ALU/mux_8_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/mux_8_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/mux_8_32.v|
+!i113 1
+R5
+R6
+R7
+vsll
+R8
+!i10b 1
+!s100 L_<SXI_OM3;?ZzmYoV_WM1
+Iz8VDegBD;?ORhB^RDJGVb2
+R2
+R0
+w1694515678
+8D:/Quartus/ECE550/ALU/sll.v
+FD:/Quartus/ECE550/ALU/sll.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/sll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/sll.v|
+!i113 1
+R5
+R6
+R7
+vsra
+R8
+!i10b 1
+!s100 YW3<N_@@c19BJL@2oSgV@1
+IL?KfMV=><J0NlH_2AA4LF1
+R2
+R0
+w1693903968
+8D:/Quartus/ECE550/ALU/sra.v
+FD:/Quartus/ECE550/ALU/sra.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE550/ALU/sra.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/sra.v|
+!i113 1
+R5
+R6
+R7
+vsubtractor_32
+R1
+!i10b 1
+!s100 o@Rf^:_JGILMBBWzSONB]0
+ITB=0eTaQB]1VT[Z2milh;3
+R2
+R0
+w1694188860
+8D:/Quartus/ECE550/ALU/subtractor_32.v
+FD:/Quartus/ECE550/ALU/subtractor_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/ALU/subtractor_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/ALU|D:/Quartus/ECE550/ALU/subtractor_32.v|
+!i113 1
+R5
+R6
+R7

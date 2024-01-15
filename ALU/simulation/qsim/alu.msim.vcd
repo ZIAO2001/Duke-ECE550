@@ -1,0 +1,1731 @@
+$comment
+	File created using the following command:
+		vcd file alu.msim.vcd -direction
+$end
+$date
+	Tue Sep 12 19:47:11 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module alu_vlg_vec_tst $end
+$var reg 5 ! ctrl_ALUopcode [4:0] $end
+$var reg 5 " ctrl_shiftamt [4:0] $end
+$var reg 32 # data_operandA [31:0] $end
+$var reg 32 $ data_operandB [31:0] $end
+$var wire 1 % data_result [31] $end
+$var wire 1 & data_result [30] $end
+$var wire 1 ' data_result [29] $end
+$var wire 1 ( data_result [28] $end
+$var wire 1 ) data_result [27] $end
+$var wire 1 * data_result [26] $end
+$var wire 1 + data_result [25] $end
+$var wire 1 , data_result [24] $end
+$var wire 1 - data_result [23] $end
+$var wire 1 . data_result [22] $end
+$var wire 1 / data_result [21] $end
+$var wire 1 0 data_result [20] $end
+$var wire 1 1 data_result [19] $end
+$var wire 1 2 data_result [18] $end
+$var wire 1 3 data_result [17] $end
+$var wire 1 4 data_result [16] $end
+$var wire 1 5 data_result [15] $end
+$var wire 1 6 data_result [14] $end
+$var wire 1 7 data_result [13] $end
+$var wire 1 8 data_result [12] $end
+$var wire 1 9 data_result [11] $end
+$var wire 1 : data_result [10] $end
+$var wire 1 ; data_result [9] $end
+$var wire 1 < data_result [8] $end
+$var wire 1 = data_result [7] $end
+$var wire 1 > data_result [6] $end
+$var wire 1 ? data_result [5] $end
+$var wire 1 @ data_result [4] $end
+$var wire 1 A data_result [3] $end
+$var wire 1 B data_result [2] $end
+$var wire 1 C data_result [1] $end
+$var wire 1 D data_result [0] $end
+$var wire 1 E isLessThan $end
+$var wire 1 F isNotEqual $end
+$var wire 1 G overflow $end
+
+$scope module i1 $end
+$var wire 1 H gnd $end
+$var wire 1 I vcc $end
+$var wire 1 J unknown $end
+$var tri1 1 K devclrn $end
+$var tri1 1 L devpor $end
+$var tri1 1 M devoe $end
+$var wire 1 N ctrl_ALUopcode[3]~input_o $end
+$var wire 1 O ctrl_ALUopcode[4]~input_o $end
+$var wire 1 P data_result[0]~output_o $end
+$var wire 1 Q data_result[1]~output_o $end
+$var wire 1 R data_result[2]~output_o $end
+$var wire 1 S data_result[3]~output_o $end
+$var wire 1 T data_result[4]~output_o $end
+$var wire 1 U data_result[5]~output_o $end
+$var wire 1 V data_result[6]~output_o $end
+$var wire 1 W data_result[7]~output_o $end
+$var wire 1 X data_result[8]~output_o $end
+$var wire 1 Y data_result[9]~output_o $end
+$var wire 1 Z data_result[10]~output_o $end
+$var wire 1 [ data_result[11]~output_o $end
+$var wire 1 \ data_result[12]~output_o $end
+$var wire 1 ] data_result[13]~output_o $end
+$var wire 1 ^ data_result[14]~output_o $end
+$var wire 1 _ data_result[15]~output_o $end
+$var wire 1 ` data_result[16]~output_o $end
+$var wire 1 a data_result[17]~output_o $end
+$var wire 1 b data_result[18]~output_o $end
+$var wire 1 c data_result[19]~output_o $end
+$var wire 1 d data_result[20]~output_o $end
+$var wire 1 e data_result[21]~output_o $end
+$var wire 1 f data_result[22]~output_o $end
+$var wire 1 g data_result[23]~output_o $end
+$var wire 1 h data_result[24]~output_o $end
+$var wire 1 i data_result[25]~output_o $end
+$var wire 1 j data_result[26]~output_o $end
+$var wire 1 k data_result[27]~output_o $end
+$var wire 1 l data_result[28]~output_o $end
+$var wire 1 m data_result[29]~output_o $end
+$var wire 1 n data_result[30]~output_o $end
+$var wire 1 o data_result[31]~output_o $end
+$var wire 1 p isNotEqual~output_o $end
+$var wire 1 q isLessThan~output_o $end
+$var wire 1 r overflow~output_o $end
+$var wire 1 s ctrl_ALUopcode[0]~input_o $end
+$var wire 1 t data_operandA[11]~input_o $end
+$var wire 1 u data_operandA[9]~input_o $end
+$var wire 1 v ctrl_shiftamt[1]~input_o $end
+$var wire 1 w mySra|mux1_9|out~0_combout $end
+$var wire 1 x data_operandA[8]~input_o $end
+$var wire 1 y data_operandA[10]~input_o $end
+$var wire 1 z mySra|mux1_8|out~0_combout $end
+$var wire 1 { ctrl_shiftamt[0]~input_o $end
+$var wire 1 | mySra|mux1_8|out~1_combout $end
+$var wire 1 } ctrl_shiftamt[3]~input_o $end
+$var wire 1 ~ data_operandA[0]~input_o $end
+$var wire 1 !! data_operandA[1]~input_o $end
+$var wire 1 "! mySra|mux3_0|out~1_combout $end
+$var wire 1 #! data_operandA[2]~input_o $end
+$var wire 1 $! data_operandA[3]~input_o $end
+$var wire 1 %! mySra|mux0_2|out~0_combout $end
+$var wire 1 &! mySra|mux3_0|out~2_combout $end
+$var wire 1 '! ctrl_shiftamt[2]~input_o $end
+$var wire 1 (! mySra|mux3_0|out~3_combout $end
+$var wire 1 )! mySll|mux2_0|out~0_combout $end
+$var wire 1 *! mySll|mux3_0|out~0_combout $end
+$var wire 1 +! data_operandA[6]~input_o $end
+$var wire 1 ,! data_operandA[7]~input_o $end
+$var wire 1 -! mySra|mux1_4|out~0_combout $end
+$var wire 1 .! data_operandA[4]~input_o $end
+$var wire 1 /! data_operandA[5]~input_o $end
+$var wire 1 0! mySra|mux0_4|out~0_combout $end
+$var wire 1 1! mySra|mux1_4|out~1_combout $end
+$var wire 1 2! data_operandA[15]~input_o $end
+$var wire 1 3! data_operandA[13]~input_o $end
+$var wire 1 4! mySra|mux1_13|out~0_combout $end
+$var wire 1 5! data_operandA[12]~input_o $end
+$var wire 1 6! data_operandA[14]~input_o $end
+$var wire 1 7! mySra|mux1_12|out~0_combout $end
+$var wire 1 8! mySra|mux1_12|out~1_combout $end
+$var wire 1 9! mySra|mux3_0|out~0_combout $end
+$var wire 1 :! output_mux|second|out[0]~64_combout $end
+$var wire 1 ;! data_operandA[22]~input_o $end
+$var wire 1 <! data_operandA[20]~input_o $end
+$var wire 1 =! mySra|mux1_20|out~0_combout $end
+$var wire 1 >! data_operandA[23]~input_o $end
+$var wire 1 ?! data_operandA[21]~input_o $end
+$var wire 1 @! mySra|mux1_21|out~0_combout $end
+$var wire 1 A! mySra|mux1_20|out~1_combout $end
+$var wire 1 B! data_operandA[19]~input_o $end
+$var wire 1 C! data_operandA[17]~input_o $end
+$var wire 1 D! mySra|mux1_17|out~0_combout $end
+$var wire 1 E! data_operandA[18]~input_o $end
+$var wire 1 F! data_operandA[16]~input_o $end
+$var wire 1 G! mySra|mux1_16|out~0_combout $end
+$var wire 1 H! mySra|mux1_16|out~1_combout $end
+$var wire 1 I! data_operandA[26]~input_o $end
+$var wire 1 J! data_operandA[24]~input_o $end
+$var wire 1 K! mySra|mux1_24|out~0_combout $end
+$var wire 1 L! data_operandA[25]~input_o $end
+$var wire 1 M! data_operandA[27]~input_o $end
+$var wire 1 N! mySra|mux1_25|out~0_combout $end
+$var wire 1 O! mySra|mux1_24|out~1_combout $end
+$var wire 1 P! mySra|mux3_16|out~0_combout $end
+$var wire 1 Q! data_operandA[29]~input_o $end
+$var wire 1 R! data_operandA[31]~input_o $end
+$var wire 1 S! mySra|mux1_28|out~0_combout $end
+$var wire 1 T! data_operandA[30]~input_o $end
+$var wire 1 U! data_operandA[28]~input_o $end
+$var wire 1 V! mySra|mux1_28|out~1_combout $end
+$var wire 1 W! mySra|mux1_28|out~2_combout $end
+$var wire 1 X! mySra|mux3_16|out~1_combout $end
+$var wire 1 Y! ctrl_shiftamt[4]~input_o $end
+$var wire 1 Z! output_mux|second|out[0]~65_combout $end
+$var wire 1 [! ctrl_ALUopcode[1]~input_o $end
+$var wire 1 \! ctrl_ALUopcode[2]~input_o $end
+$var wire 1 ]! data_operandB[0]~input_o $end
+$var wire 1 ^! output_mux|second|out[0]~66_combout $end
+$var wire 1 _! output_mux|second|out[0]~249_combout $end
+$var wire 1 `! mySra|mux0_3|out~0_combout $end
+$var wire 1 a! mySra|mux3_1|out~0_combout $end
+$var wire 1 b! mySra|mux3_1|out~1_combout $end
+$var wire 1 c! mySra|mux0_5|out~0_combout $end
+$var wire 1 d! mySra|mux1_5|out~0_combout $end
+$var wire 1 e! mySra|mux1_5|out~1_combout $end
+$var wire 1 f! mySra|mux3_1|out~2_combout $end
+$var wire 1 g! mySra|mux1_10|out~0_combout $end
+$var wire 1 h! mySra|mux1_9|out~1_combout $end
+$var wire 1 i! mySra|mux1_14|out~0_combout $end
+$var wire 1 j! mySra|mux1_13|out~1_combout $end
+$var wire 1 k! mySra|mux2_9|out~0_combout $end
+$var wire 1 l! output_mux|second|out[1]~67_combout $end
+$var wire 1 m! mySll|mux0_1|out~0_combout $end
+$var wire 1 n! mySll|mux3_1|out~2_combout $end
+$var wire 1 o! output_mux|second|out[1]~68_combout $end
+$var wire 1 p! mySra|mux1_22|out~0_combout $end
+$var wire 1 q! mySra|mux1_21|out~1_combout $end
+$var wire 1 r! mySra|mux1_18|out~0_combout $end
+$var wire 1 s! mySra|mux1_17|out~1_combout $end
+$var wire 1 t! mySra|mux2_17|out~0_combout $end
+$var wire 1 u! mySra|mux1_26|out~0_combout $end
+$var wire 1 v! mySra|mux1_25|out~1_combout $end
+$var wire 1 w! mySra|mux0_29|out~0_combout $end
+$var wire 1 x! mySra|mux2_25|out~0_combout $end
+$var wire 1 y! mySra|mux2_25|out~1_combout $end
+$var wire 1 z! mySra|mux3_17|out~0_combout $end
+$var wire 1 {! output_mux|second|out[1]~69_combout $end
+$var wire 1 |! output_mux|first_top|second|out[1]~11_combout $end
+$var wire 1 }! data_operandB[1]~input_o $end
+$var wire 1 ~! output_mux|first_top|second|out[1]~12_combout $end
+$var wire 1 !" output_mux|second|out[1]~250_combout $end
+$var wire 1 "" output_mux|second|out[3]~76_combout $end
+$var wire 1 #" mySll|mux1_2|out~0_combout $end
+$var wire 1 $" mySll|mux1_2|out~1_combout $end
+$var wire 1 %" mySll|mux3_2|out~2_combout $end
+$var wire 1 &" output_mux|second|out[3]~75_combout $end
+$var wire 1 '" mysubtractor|sub|adder0|adder0|adder_1|w2_w3~combout $end
+$var wire 1 (" myadder|adder0|adder0|adder_1|w2_w3~0_combout $end
+$var wire 1 )" output_mux|second|out[2]~277_combout $end
+$var wire 1 *" data_operandB[2]~input_o $end
+$var wire 1 +" output_mux|second|out[2]~278_combout $end
+$var wire 1 ," output_mux|second|out[2]~77_combout $end
+$var wire 1 -" output_mux|second|out[3]~70_combout $end
+$var wire 1 ." mySra|mux1_7|out~0_combout $end
+$var wire 1 /" mySra|mux1_6|out~0_combout $end
+$var wire 1 0" mySra|mux1_6|out~1_combout $end
+$var wire 1 1" output_mux|second|out[3]~71_combout $end
+$var wire 1 2" output_mux|second|out[2]~72_combout $end
+$var wire 1 3" mySra|mux1_11|out~0_combout $end
+$var wire 1 4" mySra|mux1_10|out~1_combout $end
+$var wire 1 5" mySra|mux1_15|out~0_combout $end
+$var wire 1 6" mySra|mux1_14|out~1_combout $end
+$var wire 1 7" mySra|mux2_10|out~0_combout $end
+$var wire 1 8" output_mux|second|out[2]~73_combout $end
+$var wire 1 9" output_mux|second|out[3]~74_combout $end
+$var wire 1 :" mySra|mux1_23|out~0_combout $end
+$var wire 1 ;" mySra|mux1_22|out~1_combout $end
+$var wire 1 <" mySra|mux1_19|out~0_combout $end
+$var wire 1 =" mySra|mux1_18|out~1_combout $end
+$var wire 1 >" mySra|mux2_18|out~0_combout $end
+$var wire 1 ?" mySra|mux2_26|out~0_combout $end
+$var wire 1 @" mySra|mux1_26|out~1_combout $end
+$var wire 1 A" mySra|mux1_26|out~2_combout $end
+$var wire 1 B" mySra|mux2_26|out~1_combout $end
+$var wire 1 C" mySra|mux3_18|out~0_combout $end
+$var wire 1 D" mySra|mux1_27|out~0_combout $end
+$var wire 1 E" mySra|mux1_27|out~1_combout $end
+$var wire 1 F" mySra|mux3_19|out~0_combout $end
+$var wire 1 G" mySra|mux1_23|out~1_combout $end
+$var wire 1 H" mySra|mux1_19|out~1_combout $end
+$var wire 1 I" mySra|mux2_19|out~0_combout $end
+$var wire 1 J" mySra|mux3_19|out~1_combout $end
+$var wire 1 K" mySra|mux1_7|out~1_combout $end
+$var wire 1 L" output_mux|second|out[3]~78_combout $end
+$var wire 1 M" mySra|mux1_15|out~1_combout $end
+$var wire 1 N" mySra|mux1_11|out~1_combout $end
+$var wire 1 O" mySra|mux2_11|out~0_combout $end
+$var wire 1 P" output_mux|second|out[3]~79_combout $end
+$var wire 1 Q" mySll|mux1_3|out~0_combout $end
+$var wire 1 R" mySll|mux3_3|out~0_combout $end
+$var wire 1 S" data_operandB[3]~input_o $end
+$var wire 1 T" mysubtractor|sub|adder0|adder0|adder_3|a_b_xor~0_combout $end
+$var wire 1 U" mysubtractor|sub|adder0|adder0|adder_3|w1_cin_xor~combout $end
+$var wire 1 V" output_mux|second|out[3]~80_combout $end
+$var wire 1 W" myadder|adder0|adder0|adder_3|w1_cin_xor~combout $end
+$var wire 1 X" output_mux|second|out[3]~81_combout $end
+$var wire 1 Y" output_mux|second|out[3]~82_combout $end
+$var wire 1 Z" mySll|mux1_4|out~0_combout $end
+$var wire 1 [" mySll|mux1_4|out~1_combout $end
+$var wire 1 \" mySll|mux1_4|out~2_combout $end
+$var wire 1 ]" mySll|mux2_4|out~0_combout $end
+$var wire 1 ^" mySll|mux2_4|out~1_combout $end
+$var wire 1 _" mySra|mux3_20|out~0_combout $end
+$var wire 1 `" mySra|mux2_20|out~0_combout $end
+$var wire 1 a" mySra|mux3_20|out~1_combout $end
+$var wire 1 b" output_mux|second|out[4]~84_combout $end
+$var wire 1 c" output_mux|second|out[6]~83_combout $end
+$var wire 1 d" mySra|mux2_12|out~0_combout $end
+$var wire 1 e" output_mux|second|out[4]~85_combout $end
+$var wire 1 f" output_mux|second|out[4]~86_combout $end
+$var wire 1 g" output_mux|second|out[4]~87_combout $end
+$var wire 1 h" data_operandB[4]~input_o $end
+$var wire 1 i" output_mux|second|out[4]~88_combout $end
+$var wire 1 j" myadder|adder0|adder0|adder_3|w2_w3~0_combout $end
+$var wire 1 k" myadder|adder0|adder0|adder_3|w2_w3~1_combout $end
+$var wire 1 l" output_mux|second|out[4]~89_combout $end
+$var wire 1 m" myOr|or_4~combout $end
+$var wire 1 n" mysubtractor|sub|adder0|adder0|adder_3|a_b_and~combout $end
+$var wire 1 o" mysubtractor|sub|adder0|adder0|adder_3|w1_cin_and~combout $end
+$var wire 1 p" mysubtractor|sub|adder0|adder0|adder_4|w1_cin_xor~combout $end
+$var wire 1 q" output_mux|second|out[4]~90_combout $end
+$var wire 1 r" output_mux|second|out[4]~251_combout $end
+$var wire 1 s" data_operandB[5]~input_o $end
+$var wire 1 t" mysubtractor|sub|adder0|adder0|adder_4|w2_w3~combout $end
+$var wire 1 u" mysubtractor|sub|adder0|adder0|adder_5|w1_cin_xor~combout $end
+$var wire 1 v" myadder|adder0|adder0|adder_4|w2_w3~0_combout $end
+$var wire 1 w" myadder|adder0|adder0|adder_5|w1_cin_xor~combout $end
+$var wire 1 x" output_mux|second|out[5]~94_combout $end
+$var wire 1 y" output_mux|second|out[5]~95_combout $end
+$var wire 1 z" mySra|mux2_13|out~0_combout $end
+$var wire 1 {" output_mux|second|out[5]~91_combout $end
+$var wire 1 |" mySra|mux2_21|out~0_combout $end
+$var wire 1 }" mySll|mux3_9|out~0_combout $end
+$var wire 1 ~" mySra|mux3_21|out~0_combout $end
+$var wire 1 !# mySra|mux3_21|out~1_combout $end
+$var wire 1 "# output_mux|second|out[5]~92_combout $end
+$var wire 1 ## mySll|mux1_5|out~0_combout $end
+$var wire 1 $# mySll|mux1_5|out~1_combout $end
+$var wire 1 %# mySll|mux2_5|out~0_combout $end
+$var wire 1 &# output_mux|second|out[5]~93_combout $end
+$var wire 1 '# output_mux|second|out[5]~252_combout $end
+$var wire 1 (# mySra|mux2_22|out~0_combout $end
+$var wire 1 )# mySra|mux3_22|out~0_combout $end
+$var wire 1 *# mySra|mux3_22|out~1_combout $end
+$var wire 1 +# mySra|mux2_14|out~0_combout $end
+$var wire 1 ,# output_mux|second|out[6]~96_combout $end
+$var wire 1 -# output_mux|second|out[6]~97_combout $end
+$var wire 1 .# mySll|mux1_6|out~0_combout $end
+$var wire 1 /# mySll|mux1_6|out~1_combout $end
+$var wire 1 0# mySll|mux2_6|out~0_combout $end
+$var wire 1 1# output_mux|second|out[6]~98_combout $end
+$var wire 1 2# data_operandB[6]~input_o $end
+$var wire 1 3# output_mux|second|out[6]~99_combout $end
+$var wire 1 4# myadder|adder0|adder0|adder_5|w2_w3~0_combout $end
+$var wire 1 5# output_mux|second|out[6]~100_combout $end
+$var wire 1 6# mysubtractor|sub|adder0|adder0|adder_5|w2_w3~combout $end
+$var wire 1 7# mysubtractor|sub|adder0|adder0|adder_6|w1_cin_xor~combout $end
+$var wire 1 8# myOr|or_6~combout $end
+$var wire 1 9# output_mux|second|out[6]~101_combout $end
+$var wire 1 :# output_mux|second|out[6]~253_combout $end
+$var wire 1 ;# mysubtractor|sub|adder0|adder0|adder_6|w2_w3~combout $end
+$var wire 1 <# data_operandB[7]~input_o $end
+$var wire 1 =# mysubtractor|sub|adder0|adder0|adder_7|w1_cin_xor~combout $end
+$var wire 1 ># myadder|adder0|adder0|adder_6|w2_w3~0_combout $end
+$var wire 1 ?# myadder|adder0|adder0|adder_7|w1_cin_xor~combout $end
+$var wire 1 @# output_mux|second|out[7]~105_combout $end
+$var wire 1 A# output_mux|second|out[7]~106_combout $end
+$var wire 1 B# mySra|mux2_23|out~0_combout $end
+$var wire 1 C# mySra|mux3_23|out~0_combout $end
+$var wire 1 D# mySra|mux2_15|out~0_combout $end
+$var wire 1 E# output_mux|second|out[7]~102_combout $end
+$var wire 1 F# output_mux|second|out[7]~103_combout $end
+$var wire 1 G# mySll|mux1_7|out~0_combout $end
+$var wire 1 H# mySll|mux1_7|out~1_combout $end
+$var wire 1 I# mySll|mux1_3|out~1_combout $end
+$var wire 1 J# mySll|mux2_7|out~0_combout $end
+$var wire 1 K# output_mux|second|out[7]~104_combout $end
+$var wire 1 L# output_mux|second|out[7]~254_combout $end
+$var wire 1 M# mySll|mux1_8|out~0_combout $end
+$var wire 1 N# mySll|mux1_8|out~1_combout $end
+$var wire 1 O# mySll|mux3_8|out~0_combout $end
+$var wire 1 P# mySll|mux3_8|out~1_combout $end
+$var wire 1 Q# mySra|mux3_8|out~0_combout $end
+$var wire 1 R# mySra|mux3_8|out~1_combout $end
+$var wire 1 S# output_mux|second|out[8]~107_combout $end
+$var wire 1 T# mySra|mux3_24|out~0_combout $end
+$var wire 1 U# mySra|mux3_24|out~1_combout $end
+$var wire 1 V# output_mux|second|out[8]~108_combout $end
+$var wire 1 W# data_operandB[8]~input_o $end
+$var wire 1 X# myOr|or_8~combout $end
+$var wire 1 Y# mysubtractor|sub|adder0|adder0|adder_7|w2_w3~combout $end
+$var wire 1 Z# mysubtractor|sub|adder0|mux_sum|out[0]~0_combout $end
+$var wire 1 [# output_mux|first_top|second|out[8]~0_combout $end
+$var wire 1 \# myadder|adder0|adder0|adder_7|w2_w3~0_combout $end
+$var wire 1 ]# output_mux|first_top|second|out[8]~1_combout $end
+$var wire 1 ^# output_mux|first_top|second|out[8]~2_combout $end
+$var wire 1 _# output_mux|second|out[8]~255_combout $end
+$var wire 1 `# data_operandB[9]~input_o $end
+$var wire 1 a# output_mux|second|out[12]~118_combout $end
+$var wire 1 b# output_mux|second|out[12]~114_combout $end
+$var wire 1 c# output_mux|second|out[9]~256_combout $end
+$var wire 1 d# output_mux|second|out[12]~115_combout $end
+$var wire 1 e# output_mux|second|out[9]~116_combout $end
+$var wire 1 f# mysubtractor|sub|adder0|adder1|adder_1|a_b_xor~0_combout $end
+$var wire 1 g# mysubtractor|sub|adder0|mux_sum|out[1]~1_combout $end
+$var wire 1 h# output_mux|second|out[9]~117_combout $end
+$var wire 1 i# output_mux|second|out[9]~119_combout $end
+$var wire 1 j# output_mux|second|out[12]~109_combout $end
+$var wire 1 k# output_mux|second|out[12]~110_combout $end
+$var wire 1 l# mySra|mux3_25|out~0_combout $end
+$var wire 1 m# output_mux|second|out[12]~111_combout $end
+$var wire 1 n# mySll|mux1_9|out~0_combout $end
+$var wire 1 o# mySll|mux1_9|out~1_combout $end
+$var wire 1 p# mySll|mux2_9|out~0_combout $end
+$var wire 1 q# mySll|mux3_9|out~1_combout $end
+$var wire 1 r# output_mux|second|out[9]~112_combout $end
+$var wire 1 s# output_mux|second|out[9]~113_combout $end
+$var wire 1 t# output_mux|second|out[9]~257_combout $end
+$var wire 1 u# mySll|mux1_10|out~0_combout $end
+$var wire 1 v# mySll|mux1_10|out~1_combout $end
+$var wire 1 w# mySll|mux2_10|out~0_combout $end
+$var wire 1 x# mySll|mux3_10|out~0_combout $end
+$var wire 1 y# mySra|mux3_26|out~0_combout $end
+$var wire 1 z# output_mux|second|out[10]~120_combout $end
+$var wire 1 {# output_mux|second|out[10]~121_combout $end
+$var wire 1 |# data_operandB[10]~input_o $end
+$var wire 1 }# output_mux|second|out[10]~258_combout $end
+$var wire 1 ~# myadder|adder0|adder2|adder_1|w2_w3~0_combout $end
+$var wire 1 !$ myadder|adder0|adder1|adder_1|w2_w3~0_combout $end
+$var wire 1 "$ output_mux|second|out[10]~122_combout $end
+$var wire 1 #$ mysubtractor|sub|adder0|adder1|adder_1|a_b_and~combout $end
+$var wire 1 $$ mysubtractor|sub|adder0|mux_sum|out[2]~2_combout $end
+$var wire 1 %$ mysubtractor|sub|adder0|mux_sum|out[2]~3_combout $end
+$var wire 1 &$ output_mux|second|out[10]~123_combout $end
+$var wire 1 '$ output_mux|second|out[10]~124_combout $end
+$var wire 1 ($ output_mux|second|out[10]~259_combout $end
+$var wire 1 )$ mySra|mux3_27|out~2_combout $end
+$var wire 1 *$ mySll|mux1_12|out~0_combout $end
+$var wire 1 +$ mySll|mux1_11|out~0_combout $end
+$var wire 1 ,$ mySll|mux2_11|out~0_combout $end
+$var wire 1 -$ mySll|mux3_11|out~0_combout $end
+$var wire 1 .$ output_mux|second|out[11]~125_combout $end
+$var wire 1 /$ output_mux|second|out[11]~126_combout $end
+$var wire 1 0$ output_mux|second|out[11]~127_combout $end
+$var wire 1 1$ mysubtractor|sub|adder0|mux_sum|out[3]~4_combout $end
+$var wire 1 2$ data_operandB[11]~input_o $end
+$var wire 1 3$ mysubtractor|sub|adder0|mux_sum|out[3]~5_combout $end
+$var wire 1 4$ output_mux|second|out[11]~260_combout $end
+$var wire 1 5$ output_mux|second|out[11]~128_combout $end
+$var wire 1 6$ output_mux|second|out[11]~129_combout $end
+$var wire 1 7$ output_mux|second|out[11]~261_combout $end
+$var wire 1 8$ data_operandB[12]~input_o $end
+$var wire 1 9$ mysubtractor|sub|adder0|adder1|adder_4|a_b_xor~0_combout $end
+$var wire 1 :$ myadder|adder0|adder2|adder_2|w2_w3~0_combout $end
+$var wire 1 ;$ myadder|adder0|adder2|adder_4|w1_cin_xor~combout $end
+$var wire 1 <$ myAnd|and_12~combout $end
+$var wire 1 =$ myadder|adder0|adder1|adder_2|w2_w3~0_combout $end
+$var wire 1 >$ myadder|adder0|adder1|adder_4|w1_cin_xor~combout $end
+$var wire 1 ?$ mysubtractor|sub|adder0|mux_sum|out[4]~6_combout $end
+$var wire 1 @$ output_mux|second|out[12]~132_combout $end
+$var wire 1 A$ output_mux|second|out[12]~133_combout $end
+$var wire 1 B$ output_mux|second|out[12]~134_combout $end
+$var wire 1 C$ mySra|mux3_28|out~0_combout $end
+$var wire 1 D$ mySll|mux1_13|out~0_combout $end
+$var wire 1 E$ mySll|mux1_12|out~1_combout $end
+$var wire 1 F$ mySll|mux2_12|out~0_combout $end
+$var wire 1 G$ mySll|mux3_12|out~0_combout $end
+$var wire 1 H$ output_mux|second|out[12]~130_combout $end
+$var wire 1 I$ output_mux|second|out[12]~131_combout $end
+$var wire 1 J$ output_mux|second|out[12]~262_combout $end
+$var wire 1 K$ data_operandB[13]~input_o $end
+$var wire 1 L$ mysubtractor|sub|adder0|mux_sum|out[5]~7_combout $end
+$var wire 1 M$ mysubtractor|sub|adder0|adder1|adder_4|a_b_and~combout $end
+$var wire 1 N$ mysubtractor|sub|adder0|mux_sum|out[5]~8_combout $end
+$var wire 1 O$ output_mux|second|out[13]~263_combout $end
+$var wire 1 P$ myadder|adder0|adder1|adder_3|w2_w3~0_combout $end
+$var wire 1 Q$ myadder|adder0|adder1|adder_4|w2_w3~0_combout $end
+$var wire 1 R$ myadder|adder0|adder2|adder_3|w2_w3~0_combout $end
+$var wire 1 S$ myadder|adder0|adder2|adder_4|w2_w3~0_combout $end
+$var wire 1 T$ output_mux|second|out[13]~137_combout $end
+$var wire 1 U$ output_mux|second|out[13]~138_combout $end
+$var wire 1 V$ output_mux|second|out[13]~139_combout $end
+$var wire 1 W$ mySra|mux3_29|out~0_combout $end
+$var wire 1 X$ mySll|mux1_14|out~0_combout $end
+$var wire 1 Y$ mySll|mux1_13|out~1_combout $end
+$var wire 1 Z$ mySll|mux2_13|out~0_combout $end
+$var wire 1 [$ mySll|mux3_13|out~0_combout $end
+$var wire 1 \$ output_mux|second|out[13]~135_combout $end
+$var wire 1 ]$ output_mux|second|out[13]~136_combout $end
+$var wire 1 ^$ output_mux|second|out[13]~264_combout $end
+$var wire 1 _$ mySll|mux1_15|out~0_combout $end
+$var wire 1 `$ mySll|mux1_14|out~1_combout $end
+$var wire 1 a$ mySll|mux2_14|out~0_combout $end
+$var wire 1 b$ mySll|mux3_14|out~0_combout $end
+$var wire 1 c$ mySra|mux3_30|out~0_combout $end
+$var wire 1 d$ output_mux|second|out[14]~140_combout $end
+$var wire 1 e$ output_mux|second|out[14]~141_combout $end
+$var wire 1 f$ mysubtractor|sub|adder0|mux_sum|out[6]~9_combout $end
+$var wire 1 g$ data_operandB[14]~input_o $end
+$var wire 1 h$ output_mux|second|out[14]~143_combout $end
+$var wire 1 i$ mysubtractor|sub|adder0|adder1|adder_6|a_b_xor~0_combout $end
+$var wire 1 j$ output_mux|second|out[14]~142_combout $end
+$var wire 1 k$ output_mux|second|out[14]~265_combout $end
+$var wire 1 l$ output_mux|second|out[14]~144_combout $end
+$var wire 1 m$ output_mux|second|out[14]~266_combout $end
+$var wire 1 n$ data_operandB[15]~input_o $end
+$var wire 1 o$ myAnd|and_15~combout $end
+$var wire 1 p$ mysubtractor|sub|adder0|adder1|adder_7|a_b_xor~0_combout $end
+$var wire 1 q$ myadder|adder0|adder1|adder_5|w2_w3~0_combout $end
+$var wire 1 r$ output_mux|second|out[15]~147_combout $end
+$var wire 1 s$ output_mux|second|out[15]~148_combout $end
+$var wire 1 t$ output_mux|second|out[15]~149_combout $end
+$var wire 1 u$ myadder|adder0|adder2|adder_5|w2_w3~0_combout $end
+$var wire 1 v$ myadder|adder0|adder2|adder_7|w1_cin_xor~combout $end
+$var wire 1 w$ output_mux|second|out[15]~150_combout $end
+$var wire 1 x$ output_mux|second|out[15]~151_combout $end
+$var wire 1 y$ mySll|mux1_16|out~0_combout $end
+$var wire 1 z$ mySll|mux1_15|out~1_combout $end
+$var wire 1 {$ mySll|mux2_15|out~0_combout $end
+$var wire 1 |$ mySll|mux3_15|out~0_combout $end
+$var wire 1 }$ output_mux|second|out[15]~145_combout $end
+$var wire 1 ~$ output_mux|second|out[15]~146_combout $end
+$var wire 1 !% output_mux|second|out[15]~267_combout $end
+$var wire 1 "% data_operandB[16]~input_o $end
+$var wire 1 #% myadder|adder0|mux_cout|out~0_combout $end
+$var wire 1 $% myadder|adder0|mux_cout|out~1_combout $end
+$var wire 1 %% myadder|adder0|mux_cout|out~2_combout $end
+$var wire 1 &% myadder|mux_sum|out[0]~0_combout $end
+$var wire 1 '% mysubtractor|sub|adder0|mux_cout|out~0_combout $end
+$var wire 1 (% mysubtractor|sub|adder0|adder1|adder_7|a_b_and~combout $end
+$var wire 1 )% mysubtractor|sub|mux_sum|out[0]~10_combout $end
+$var wire 1 *% output_mux|first_top|second|out[16]~3_combout $end
+$var wire 1 +% output_mux|first_top|second|out[16]~4_combout $end
+$var wire 1 ,% mySll|mux1_17|out~0_combout $end
+$var wire 1 -% mySll|mux1_16|out~1_combout $end
+$var wire 1 .% mySll|mux3_16|out~0_combout $end
+$var wire 1 /% mySll|mux3_16|out~1_combout $end
+$var wire 1 0% output_mux|first_bot|first_top|out[16]~0_combout $end
+$var wire 1 1% output_mux|first_bot|first_top|out[16]~1_combout $end
+$var wire 1 2% output_mux|second|out[16]~268_combout $end
+$var wire 1 3% output_mux|second|out[3]~153_combout $end
+$var wire 1 4% mySll|mux1_18|out~0_combout $end
+$var wire 1 5% mySll|mux1_17|out~1_combout $end
+$var wire 1 6% mySll|mux2_17|out~0_combout $end
+$var wire 1 7% output_mux|second|out[19]~154_combout $end
+$var wire 1 8% output_mux|second|out[17]~155_combout $end
+$var wire 1 9% output_mux|second|out[17]~156_combout $end
+$var wire 1 :% output_mux|second|out[19]~152_combout $end
+$var wire 1 ;% output_mux|second|out[19]~157_combout $end
+$var wire 1 <% output_mux|second|out[17]~158_combout $end
+$var wire 1 =% data_operandB[17]~input_o $end
+$var wire 1 >% output_mux|second|out[17]~269_combout $end
+$var wire 1 ?% mysubtractor|sub|adder1|adder0|adder_1|a_b_xor~0_combout $end
+$var wire 1 @% mysubtractor|sub|adder0|mux_sum|out[7]~10_combout $end
+$var wire 1 A% mysubtractor|sub|adder0|mux_cout|out~1_combout $end
+$var wire 1 B% mysubtractor|sub|mux_sum|out[1]~11_combout $end
+$var wire 1 C% output_mux|second|out[17]~159_combout $end
+$var wire 1 D% output_mux|second|out[17]~160_combout $end
+$var wire 1 E% myOr|or_17~combout $end
+$var wire 1 F% output_mux|second|out[17]~161_combout $end
+$var wire 1 G% output_mux|second|out[17]~162_combout $end
+$var wire 1 H% myadder|adder2|adder0|adder_1|w2_w3~0_combout $end
+$var wire 1 I% myadder|adder1|adder0|adder_1|w2_w3~0_combout $end
+$var wire 1 J% output_mux|second|out[18]~165_combout $end
+$var wire 1 K% mysubtractor|sub|mux_sum|out[1]~12_combout $end
+$var wire 1 L% mysubtractor|sub|mux_sum|out[2]~13_combout $end
+$var wire 1 M% data_operandB[18]~input_o $end
+$var wire 1 N% mysubtractor|sub|mux_sum|out[2]~14_combout $end
+$var wire 1 O% output_mux|second|out[18]~275_combout $end
+$var wire 1 P% output_mux|second|out[18]~166_combout $end
+$var wire 1 Q% mySll|mux1_19|out~0_combout $end
+$var wire 1 R% mySll|mux1_18|out~1_combout $end
+$var wire 1 S% mySll|mux2_18|out~0_combout $end
+$var wire 1 T% output_mux|second|out[18]~163_combout $end
+$var wire 1 U% output_mux|second|out[18]~164_combout $end
+$var wire 1 V% output_mux|second|out[18]~167_combout $end
+$var wire 1 W% myOr|or_18~combout $end
+$var wire 1 X% output_mux|second|out[18]~168_combout $end
+$var wire 1 Y% output_mux|second|out[18]~169_combout $end
+$var wire 1 Z% data_operandB[19]~input_o $end
+$var wire 1 [% myOr|or_19~combout $end
+$var wire 1 \% mySll|mux1_20|out~0_combout $end
+$var wire 1 ]% mySll|mux1_19|out~1_combout $end
+$var wire 1 ^% mySll|mux2_19|out~0_combout $end
+$var wire 1 _% output_mux|second|out[19]~170_combout $end
+$var wire 1 `% output_mux|second|out[19]~171_combout $end
+$var wire 1 a% myAnd|and_19~combout $end
+$var wire 1 b% myAnd|and_18~combout $end
+$var wire 1 c% mysubtractor|sub|adder1|adder0|adder_3|a_b_xor~0_combout $end
+$var wire 1 d% myadder|adder1|adder0|adder_3|w1_cin_xor~combout $end
+$var wire 1 e% mysubtractor|sub|mux_sum|out[3]~15_combout $end
+$var wire 1 f% output_mux|second|out[19]~172_combout $end
+$var wire 1 g% myadder|adder2|adder0|adder_3|w1_cin_xor~combout $end
+$var wire 1 h% output_mux|second|out[19]~173_combout $end
+$var wire 1 i% output_mux|second|out[19]~174_combout $end
+$var wire 1 j% output_mux|second|out[19]~175_combout $end
+$var wire 1 k% output_mux|second|out[19]~176_combout $end
+$var wire 1 l% mySll|mux1_21|out~0_combout $end
+$var wire 1 m% mySll|mux1_20|out~1_combout $end
+$var wire 1 n% mySll|mux2_20|out~0_combout $end
+$var wire 1 o% mySll|mux3_4|out~0_combout $end
+$var wire 1 p% output_mux|second|out[20]~177_combout $end
+$var wire 1 q% output_mux|second|out[20]~178_combout $end
+$var wire 1 r% data_operandB[20]~input_o $end
+$var wire 1 s% myAnd|and_20~combout $end
+$var wire 1 t% myadder|adder2|adder0|adder_3|w2_w3~0_combout $end
+$var wire 1 u% myadder|adder2|adder0|adder_4|w1_cin_xor~combout $end
+$var wire 1 v% myadder|adder1|adder0|adder_3|w2_w3~0_combout $end
+$var wire 1 w% myadder|adder1|adder0|adder_4|w1_cin_xor~combout $end
+$var wire 1 x% mysubtractor|sub|adder1|adder0|adder_3|a_b_and~0_combout $end
+$var wire 1 y% mysubtractor|sub|mux_sum|out[4]~16_combout $end
+$var wire 1 z% mysubtractor|sub|mux_sum|out[4]~17_combout $end
+$var wire 1 {% output_mux|second|out[20]~179_combout $end
+$var wire 1 |% output_mux|second|out[20]~180_combout $end
+$var wire 1 }% output_mux|second|out[20]~181_combout $end
+$var wire 1 ~% myOr|or_20~combout $end
+$var wire 1 !& output_mux|second|out[20]~182_combout $end
+$var wire 1 "& output_mux|second|out[20]~183_combout $end
+$var wire 1 #& data_operandB[21]~input_o $end
+$var wire 1 $& myOr|or_21~combout $end
+$var wire 1 %& mySll|mux1_22|out~0_combout $end
+$var wire 1 && mySll|mux1_21|out~1_combout $end
+$var wire 1 '& mySll|mux2_21|out~0_combout $end
+$var wire 1 (& output_mux|second|out[21]~184_combout $end
+$var wire 1 )& mySll|mux3_5|out~0_combout $end
+$var wire 1 *& output_mux|second|out[21]~185_combout $end
+$var wire 1 +& myadder|adder2|adder0|adder_4|w2_w3~0_combout $end
+$var wire 1 ,& myadder|adder1|adder0|adder_4|w2_w3~0_combout $end
+$var wire 1 -& output_mux|second|out[21]~186_combout $end
+$var wire 1 .& output_mux|second|out[21]~276_combout $end
+$var wire 1 /& mysubtractor|sub|mux_sum|out[5]~18_combout $end
+$var wire 1 0& mysubtractor|sub|mux_sum|out[5]~19_combout $end
+$var wire 1 1& output_mux|second|out[21]~187_combout $end
+$var wire 1 2& output_mux|second|out[21]~188_combout $end
+$var wire 1 3& output_mux|second|out[21]~189_combout $end
+$var wire 1 4& output_mux|second|out[21]~190_combout $end
+$var wire 1 5& data_operandB[22]~input_o $end
+$var wire 1 6& myOr|or_22~combout $end
+$var wire 1 7& mySll|mux3_6|out~0_combout $end
+$var wire 1 8& mySll|mux1_23|out~0_combout $end
+$var wire 1 9& mySll|mux1_22|out~1_combout $end
+$var wire 1 :& mySll|mux2_22|out~0_combout $end
+$var wire 1 ;& output_mux|second|out[22]~191_combout $end
+$var wire 1 <& output_mux|second|out[22]~192_combout $end
+$var wire 1 =& mysubtractor|sub|adder1|adder0|adder_6|a_b_xor~0_combout $end
+$var wire 1 >& myAnd|and_21~combout $end
+$var wire 1 ?& myadder|adder1|adder0|adder_6|w1_cin_xor~combout $end
+$var wire 1 @& mysubtractor|sub|mux_sum|out[6]~20_combout $end
+$var wire 1 A& output_mux|second|out[22]~193_combout $end
+$var wire 1 B& myAnd|and_22~combout $end
+$var wire 1 C& myadder|adder2|adder0|adder_6|w1_cin_xor~combout $end
+$var wire 1 D& output_mux|second|out[22]~194_combout $end
+$var wire 1 E& output_mux|second|out[22]~195_combout $end
+$var wire 1 F& output_mux|second|out[22]~196_combout $end
+$var wire 1 G& output_mux|second|out[22]~197_combout $end
+$var wire 1 H& data_operandB[23]~input_o $end
+$var wire 1 I& myOr|or_23~combout $end
+$var wire 1 J& mySll|mux1_24|out~0_combout $end
+$var wire 1 K& mySll|mux1_23|out~1_combout $end
+$var wire 1 L& mySll|mux2_23|out~0_combout $end
+$var wire 1 M& output_mux|second|out[23]~198_combout $end
+$var wire 1 N& mySll|mux3_7|out~0_combout $end
+$var wire 1 O& output_mux|second|out[23]~199_combout $end
+$var wire 1 P& myadder|adder2|adder0|adder_6|w2_w3~0_combout $end
+$var wire 1 Q& myadder|adder2|adder0|adder_7|w1_cin_xor~combout $end
+$var wire 1 R& myAnd|and_23~combout $end
+$var wire 1 S& myadder|adder1|adder0|adder_6|w2_w3~0_combout $end
+$var wire 1 T& myadder|adder1|adder0|adder_7|w1_cin_xor~combout $end
+$var wire 1 U& mysubtractor|sub|adder1|adder0|adder_6|a_b_and~0_combout $end
+$var wire 1 V& mysubtractor|sub|mux_sum|out[7]~21_combout $end
+$var wire 1 W& mysubtractor|sub|mux_sum|out[7]~22_combout $end
+$var wire 1 X& output_mux|second|out[23]~200_combout $end
+$var wire 1 Y& output_mux|second|out[23]~201_combout $end
+$var wire 1 Z& output_mux|second|out[23]~202_combout $end
+$var wire 1 [& output_mux|second|out[23]~203_combout $end
+$var wire 1 \& output_mux|second|out[23]~204_combout $end
+$var wire 1 ]& mySll|mux1_25|out~0_combout $end
+$var wire 1 ^& mySll|mux1_24|out~1_combout $end
+$var wire 1 _& mySll|mux3_24|out~0_combout $end
+$var wire 1 `& mySll|mux3_24|out~1_combout $end
+$var wire 1 a& output_mux|first_bot|first_top|out[24]~2_combout $end
+$var wire 1 b& output_mux|first_bot|first_top|out[24]~3_combout $end
+$var wire 1 c& data_operandB[24]~input_o $end
+$var wire 1 d& output_mux|first_top|second|out[24]~5_combout $end
+$var wire 1 e& myadder|adder1|adder0|adder_7|w2_w3~0_combout $end
+$var wire 1 f& mysubtractor|sub|adder2|mux_sum|out[0]~0_combout $end
+$var wire 1 g& myadder|adder2|adder0|adder_7|w2_w3~0_combout $end
+$var wire 1 h& myadder|mux_sum|out[8]~1_combout $end
+$var wire 1 i& mysubtractor|sub|adder2|adder0|adder_6|w2_w3~0_combout $end
+$var wire 1 j& mysubtractor|sub|adder2|adder0|adder_6|w2_w3~1_combout $end
+$var wire 1 k& mysubtractor|sub|adder1|adder0|adder_7|w2_w3~0_combout $end
+$var wire 1 l& mysubtractor|sub|adder1|adder0|adder_7|w2_w3~1_combout $end
+$var wire 1 m& mysubtractor|sub|mux_sum|out[8]~39_combout $end
+$var wire 1 n& mysubtractor|sub|mux_sum|out[8]~40_combout $end
+$var wire 1 o& mysubtractor|sub|mux_sum|out[8]~23_combout $end
+$var wire 1 p& mysubtractor|sub|mux_sum|out[8]~38_combout $end
+$var wire 1 q& mysubtractor|sub|mux_sum|out[8]~24_combout $end
+$var wire 1 r& output_mux|first_top|second|out[24]~6_combout $end
+$var wire 1 s& output_mux|second|out[24]~270_combout $end
+$var wire 1 t& output_mux|second|out[25]~211_combout $end
+$var wire 1 u& mySll|mux1_25|out~1_combout $end
+$var wire 1 v& mySll|mux1_25|out~2_combout $end
+$var wire 1 w& output_mux|second|out[25]~205_combout $end
+$var wire 1 x& output_mux|second|out[25]~206_combout $end
+$var wire 1 y& output_mux|second|out[25]~207_combout $end
+$var wire 1 z& output_mux|second|out[25]~208_combout $end
+$var wire 1 {& output_mux|second|out[25]~209_combout $end
+$var wire 1 |& data_operandB[25]~input_o $end
+$var wire 1 }& output_mux|second|out[25]~271_combout $end
+$var wire 1 ~& mysubtractor|sub|adder1|adder1|adder_1|a_b_xor~0_combout $end
+$var wire 1 !' mysubtractor|sub|mux_sum|out[9]~25_combout $end
+$var wire 1 "' mysubtractor|sub|mux_sum|out[9]~26_combout $end
+$var wire 1 #' output_mux|second|out[25]~210_combout $end
+$var wire 1 $' output_mux|second|out[25]~212_combout $end
+$var wire 1 %' output_mux|second|out[25]~213_combout $end
+$var wire 1 &' output_mux|second|out[25]~214_combout $end
+$var wire 1 '' output_mux|second|out[25]~215_combout $end
+$var wire 1 (' data_operandB[26]~input_o $end
+$var wire 1 )' output_mux|second|out[26]~272_combout $end
+$var wire 1 *' myadder|adder1|adder1|adder_1|w2_w3~0_combout $end
+$var wire 1 +' myadder|adder1|adder2|adder_1|w2_w3~0_combout $end
+$var wire 1 ,' output_mux|second|out[26]~218_combout $end
+$var wire 1 -' mysubtractor|sub|mux_sum|out[10]~27_combout $end
+$var wire 1 .' mysubtractor|sub|adder1|adder1|adder_1|a_b_and~0_combout $end
+$var wire 1 /' mysubtractor|sub|mux_sum|out[10]~28_combout $end
+$var wire 1 0' output_mux|second|out[26]~219_combout $end
+$var wire 1 1' mySll|mux1_26|out~0_combout $end
+$var wire 1 2' mySll|mux0_26|out~0_combout $end
+$var wire 1 3' mySll|mux1_26|out~1_combout $end
+$var wire 1 4' output_mux|second|out[26]~216_combout $end
+$var wire 1 5' output_mux|second|out[26]~217_combout $end
+$var wire 1 6' output_mux|second|out[26]~220_combout $end
+$var wire 1 7' output_mux|second|out[26]~221_combout $end
+$var wire 1 8' output_mux|second|out[26]~222_combout $end
+$var wire 1 9' data_operandB[27]~input_o $end
+$var wire 1 :' mySll|mux0_27|out~0_combout $end
+$var wire 1 ;' mySll|mux1_27|out~0_combout $end
+$var wire 1 <' mySll|mux1_27|out~1_combout $end
+$var wire 1 =' output_mux|second|out[27]~223_combout $end
+$var wire 1 >' output_mux|second|out[27]~224_combout $end
+$var wire 1 ?' mysubtractor|sub|adder1|adder1|adder_3|a_b_xor~0_combout $end
+$var wire 1 @' myadder|adder1|adder2|adder_3|w1_cin_xor~combout $end
+$var wire 1 A' myadder|adder1|adder1|adder_3|w1_cin_xor~combout $end
+$var wire 1 B' mysubtractor|sub|mux_sum|out[11]~29_combout $end
+$var wire 1 C' mysubtractor|sub|mux_sum|out[11]~37_combout $end
+$var wire 1 D' output_mux|second|out[27]~225_combout $end
+$var wire 1 E' myAnd|and_27~combout $end
+$var wire 1 F' output_mux|second|out[27]~226_combout $end
+$var wire 1 G' output_mux|second|out[27]~227_combout $end
+$var wire 1 H' output_mux|second|out[27]~228_combout $end
+$var wire 1 I' output_mux|second|out[27]~229_combout $end
+$var wire 1 J' mySll|mux0_28|out~0_combout $end
+$var wire 1 K' output_mux|second|out[28]~231_combout $end
+$var wire 1 L' output_mux|second|out[28]~232_combout $end
+$var wire 1 M' output_mux|second|out[28]~233_combout $end
+$var wire 1 N' output_mux|second|out[28]~234_combout $end
+$var wire 1 O' output_mux|second|out[28]~235_combout $end
+$var wire 1 P' data_operandB[28]~input_o $end
+$var wire 1 Q' output_mux|second|out[28]~230_combout $end
+$var wire 1 R' output_mux|second|out[28]~238_combout $end
+$var wire 1 S' myAnd|and_28~combout $end
+$var wire 1 T' mysubtractor|sub|adder1|adder1|adder_4|a_b_xor~0_combout $end
+$var wire 1 U' myadder|adder1|adder2|adder_2|w2_w3~0_combout $end
+$var wire 1 V' myadder|adder1|adder2|adder_4|w1_cin_xor~combout $end
+$var wire 1 W' myadder|adder1|adder1|adder_2|w2_w3~0_combout $end
+$var wire 1 X' myadder|adder1|adder1|adder_4|w1_cin_xor~combout $end
+$var wire 1 Y' mysubtractor|sub|mux_sum|out[12]~30_combout $end
+$var wire 1 Z' output_mux|second|out[28]~236_combout $end
+$var wire 1 [' output_mux|second|out[28]~237_combout $end
+$var wire 1 \' output_mux|second|out[28]~239_combout $end
+$var wire 1 ]' mySll|mux0_29|out~0_combout $end
+$var wire 1 ^' output_mux|second|out[29]~241_combout $end
+$var wire 1 _' output_mux|second|out[29]~242_combout $end
+$var wire 1 `' output_mux|second|out[29]~243_combout $end
+$var wire 1 a' output_mux|second|out[29]~244_combout $end
+$var wire 1 b' output_mux|second|out[29]~245_combout $end
+$var wire 1 c' data_operandB[29]~input_o $end
+$var wire 1 d' output_mux|second|out[29]~240_combout $end
+$var wire 1 e' myAnd|and_29~combout $end
+$var wire 1 f' mysubtractor|sub|adder1|adder1|adder_5|a_b_xor~0_combout $end
+$var wire 1 g' mysubtractor|sub|mux_sum|out[12]~31_combout $end
+$var wire 1 h' mysubtractor|sub|mux_sum|out[13]~32_combout $end
+$var wire 1 i' myadder|adder1|adder1|adder_3|w2_w3~0_combout $end
+$var wire 1 j' myadder|adder1|adder1|adder_5|w1_cin_xor~combout $end
+$var wire 1 k' output_mux|second|out[29]~246_combout $end
+$var wire 1 l' myadder|adder1|adder2|adder_3|w2_w3~0_combout $end
+$var wire 1 m' myadder|adder1|adder2|adder_5|w1_cin_xor~combout $end
+$var wire 1 n' output_mux|second|out[29]~247_combout $end
+$var wire 1 o' output_mux|second|out[29]~248_combout $end
+$var wire 1 p' mySll|mux3_30|out~1_combout $end
+$var wire 1 q' mySll|mux3_30|out~2_combout $end
+$var wire 1 r' mySll|mux3_30|out~0_combout $end
+$var wire 1 s' mySll|mux3_30|out~3_combout $end
+$var wire 1 t' output_mux|first_bot|first_top|out[30]~4_combout $end
+$var wire 1 u' output_mux|first_bot|first_top|out[30]~5_combout $end
+$var wire 1 v' data_operandB[30]~input_o $end
+$var wire 1 w' mysubtractor|sub|mux_sum|out[13]~33_combout $end
+$var wire 1 x' mysubtractor|sub|adder1|adder1|adder_6|a_b_xor~0_combout $end
+$var wire 1 y' mysubtractor|sub|adder1|adder1|adder_5|a_b_and~0_combout $end
+$var wire 1 z' mysubtractor|sub|mux_sum|out[14]~34_combout $end
+$var wire 1 {' myadder|adder1|adder2|adder_4|w2_w3~0_combout $end
+$var wire 1 |' myadder|adder1|adder2|adder_5|w2_w3~0_combout $end
+$var wire 1 }' myadder|adder1|adder1|adder_4|w2_w3~0_combout $end
+$var wire 1 ~' myadder|adder1|adder1|adder_5|w2_w3~0_combout $end
+$var wire 1 !( myadder|mux_sum|out[14]~2_combout $end
+$var wire 1 "( output_mux|first_top|second|out[30]~7_combout $end
+$var wire 1 #( output_mux|first_top|second|out[30]~8_combout $end
+$var wire 1 $( output_mux|second|out[30]~273_combout $end
+$var wire 1 %( mysubtractor|sub|mux_sum|out[15]~35_combout $end
+$var wire 1 &( data_operandB[31]~input_o $end
+$var wire 1 '( mysubtractor|sub|adder1|adder1|adder_7|a_b_xor~0_combout $end
+$var wire 1 (( mysubtractor|sub|mux_sum|out[15]~36_combout $end
+$var wire 1 )( myAnd|and_31~0_combout $end
+$var wire 1 *( myadder|adder1|adder1|adder_6|w2_w3~0_combout $end
+$var wire 1 +( myadder|adder1|adder2|adder_6|w2_w3~0_combout $end
+$var wire 1 ,( myadder|mux_sum|out[15]~3_combout $end
+$var wire 1 -( output_mux|first_top|second|out[31]~9_combout $end
+$var wire 1 .( overflow_mux|second|out~0_combout $end
+$var wire 1 /( output_mux|first_top|second|out[31]~10_combout $end
+$var wire 1 0( output_mux|first_bot|first_top|out[31]~6_combout $end
+$var wire 1 1( output_mux|first_bot|first_top|out[31]~7_combout $end
+$var wire 1 2( output_mux|first_bot|first_top|out[31]~8_combout $end
+$var wire 1 3( output_mux|first_bot|first_top|out[31]~9_combout $end
+$var wire 1 4( output_mux|first_bot|first_top|out[31]~10_combout $end
+$var wire 1 5( output_mux|first_bot|first_top|out[31]~11_combout $end
+$var wire 1 6( output_mux|second|out[31]~274_combout $end
+$var wire 1 7( mysubtractor|or_30~5_combout $end
+$var wire 1 8( mysubtractor|sub|adder0|adder0|adder_2|w1_cin_xor~combout $end
+$var wire 1 9( mysubtractor|or_30~0_combout $end
+$var wire 1 :( mysubtractor|or_30~1_combout $end
+$var wire 1 ;( mysubtractor|or_30~2_combout $end
+$var wire 1 <( mysubtractor|or_30~3_combout $end
+$var wire 1 =( mysubtractor|or_30~4_combout $end
+$var wire 1 >( mysubtractor|or_30~6_combout $end
+$var wire 1 ?( mysubtractor|or_30~7_combout $end
+$var wire 1 @( mysubtractor|or_30~8_combout $end
+$var wire 1 A( mysubtractor|or_30~9_combout $end
+$var wire 1 B( mysubtractor|or_30~10_combout $end
+$var wire 1 C( mysubtractor|or_30~11_combout $end
+$var wire 1 D( isNotEqual_mux|second|out~0_combout $end
+$var wire 1 E( isNotEqual_mux|second|out~1_combout $end
+$var wire 1 F( mysubtractor|sub|adder1|adder1|adder_6|w2_w3~0_combout $end
+$var wire 1 G( mysubtractor|sub|adder1|adder1|adder_6|w2_w3~1_combout $end
+$var wire 1 H( mysubtractor|sub|adder1|adder1|adder_6|w2_w3~2_combout $end
+$var wire 1 I( mysubtractor|sub|adder1|adder2|adder_6|w2_w3~0_combout $end
+$var wire 1 J( mysubtractor|sub|adder1|adder2|adder_6|w2_w3~1_combout $end
+$var wire 1 K( mysubtractor|sub|adder1|adder2|adder_6|w2_w3~2_combout $end
+$var wire 1 L( mysubtractor|sub|mux_of|out~2_combout $end
+$var wire 1 M( mysubtractor|sub|mux_of|out~3_combout $end
+$var wire 1 N( mysubtractor|sub|mux_of|out~0_combout $end
+$var wire 1 O( mysubtractor|sub|mux_of|out~1_combout $end
+$var wire 1 P( isLessThan_mux|second|out~0_combout $end
+$var wire 1 Q( overflow_mux|second|out~1_combout $end
+$var wire 1 R( overflow_mux|second|out~2_combout $end
+$var wire 1 S( overflow_mux|second|out~3_combout $end
+$var wire 1 T( overflow_mux|second|out~4_combout $end
+$var wire 1 U( output_mux|second|out [31] $end
+$var wire 1 V( output_mux|second|out [30] $end
+$var wire 1 W( output_mux|second|out [29] $end
+$var wire 1 X( output_mux|second|out [28] $end
+$var wire 1 Y( output_mux|second|out [27] $end
+$var wire 1 Z( output_mux|second|out [26] $end
+$var wire 1 [( output_mux|second|out [25] $end
+$var wire 1 \( output_mux|second|out [24] $end
+$var wire 1 ]( output_mux|second|out [23] $end
+$var wire 1 ^( output_mux|second|out [22] $end
+$var wire 1 _( output_mux|second|out [21] $end
+$var wire 1 `( output_mux|second|out [20] $end
+$var wire 1 a( output_mux|second|out [19] $end
+$var wire 1 b( output_mux|second|out [18] $end
+$var wire 1 c( output_mux|second|out [17] $end
+$var wire 1 d( output_mux|second|out [16] $end
+$var wire 1 e( output_mux|second|out [15] $end
+$var wire 1 f( output_mux|second|out [14] $end
+$var wire 1 g( output_mux|second|out [13] $end
+$var wire 1 h( output_mux|second|out [12] $end
+$var wire 1 i( output_mux|second|out [11] $end
+$var wire 1 j( output_mux|second|out [10] $end
+$var wire 1 k( output_mux|second|out [9] $end
+$var wire 1 l( output_mux|second|out [8] $end
+$var wire 1 m( output_mux|second|out [7] $end
+$var wire 1 n( output_mux|second|out [6] $end
+$var wire 1 o( output_mux|second|out [5] $end
+$var wire 1 p( output_mux|second|out [4] $end
+$var wire 1 q( output_mux|second|out [3] $end
+$var wire 1 r( output_mux|second|out [2] $end
+$var wire 1 s( output_mux|second|out [1] $end
+$var wire 1 t( output_mux|second|out [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b10000000000000000000000000000000 #
+b10000000000000000000000000000000 $
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0E
+0F
+1G
+0H
+1I
+xJ
+1K
+1L
+1M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+1r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+0H!
+0I!
+0J!
+0K!
+0L!
+0M!
+0N!
+0O!
+0P!
+0Q!
+1R!
+0S!
+0T!
+0U!
+0V!
+0W!
+0X!
+0Y!
+0Z!
+0[!
+0\!
+0]!
+0^!
+0_!
+0`!
+0a!
+0b!
+0c!
+0d!
+0e!
+0f!
+0g!
+0h!
+0i!
+0j!
+0k!
+0l!
+0m!
+0n!
+0o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+0|!
+0}!
+0~!
+0!"
+1""
+0#"
+0$"
+0%"
+1&"
+1'"
+0("
+0)"
+0*"
+0+"
+0,"
+0-"
+0."
+0/"
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+08"
+09"
+0:"
+0;"
+0<"
+0="
+0>"
+0?"
+0@"
+0A"
+0B"
+0C"
+0D"
+0E"
+0F"
+0G"
+0H"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+0O"
+0P"
+0Q"
+0R"
+0S"
+0T"
+1U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+0^"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+0f"
+0g"
+0h"
+0i"
+0j"
+0k"
+0l"
+0m"
+0n"
+1o"
+1p"
+0q"
+0r"
+0s"
+1t"
+1u"
+0v"
+0w"
+0x"
+0y"
+0z"
+0{"
+0|"
+1}"
+0~"
+0!#
+0"#
+0##
+0$#
+0%#
+0&#
+0'#
+0(#
+0)#
+0*#
+0+#
+0,#
+0-#
+0.#
+0/#
+00#
+01#
+02#
+03#
+04#
+05#
+16#
+17#
+08#
+09#
+0:#
+1;#
+0<#
+1=#
+0>#
+0?#
+0@#
+0A#
+0B#
+0C#
+0D#
+0E#
+0F#
+0G#
+0H#
+0I#
+0J#
+0K#
+0L#
+0M#
+0N#
+0O#
+0P#
+0Q#
+0R#
+0S#
+0T#
+0U#
+0V#
+0W#
+0X#
+1Y#
+1Z#
+0[#
+0\#
+0]#
+0^#
+0_#
+0`#
+0a#
+1b#
+0c#
+0d#
+0e#
+0f#
+1g#
+0h#
+0i#
+1j#
+0k#
+0l#
+0m#
+0n#
+0o#
+0p#
+0q#
+0r#
+0s#
+0t#
+0u#
+0v#
+0w#
+0x#
+0y#
+0z#
+0{#
+0|#
+0}#
+0~#
+0!$
+0"$
+0#$
+1$$
+1%$
+0&$
+0'$
+0($
+0)$
+0*$
+0+$
+0,$
+0-$
+0.$
+0/$
+00$
+11$
+02$
+13$
+04$
+05$
+06$
+07$
+08$
+09$
+0:$
+0;$
+0<$
+0=$
+0>$
+1?$
+0@$
+0A$
+0B$
+0C$
+0D$
+0E$
+0F$
+0G$
+0H$
+0I$
+0J$
+0K$
+1L$
+0M$
+1N$
+0O$
+0P$
+0Q$
+0R$
+0S$
+0T$
+0U$
+0V$
+0W$
+0X$
+0Y$
+0Z$
+0[$
+0\$
+0]$
+0^$
+0_$
+0`$
+0a$
+0b$
+0c$
+0d$
+0e$
+1f$
+0g$
+1h$
+0i$
+0j$
+0k$
+0l$
+0m$
+0n$
+0o$
+0p$
+0q$
+0r$
+0s$
+0t$
+0u$
+0v$
+0w$
+0x$
+0y$
+0z$
+0{$
+0|$
+0}$
+0~$
+0!%
+0"%
+0#%
+0$%
+0%%
+0&%
+1'%
+0(%
+1)%
+0*%
+0+%
+0,%
+0-%
+0.%
+0/%
+00%
+01%
+02%
+13%
+04%
+05%
+06%
+07%
+08%
+09%
+0:%
+0;%
+0<%
+0=%
+0>%
+0?%
+1@%
+1A%
+1B%
+0C%
+0D%
+0E%
+0F%
+0G%
+0H%
+0I%
+0J%
+1K%
+1L%
+0M%
+1N%
+0O%
+0P%
+0Q%
+0R%
+0S%
+0T%
+0U%
+0V%
+0W%
+0X%
+0Y%
+0Z%
+0[%
+0\%
+0]%
+0^%
+0_%
+0`%
+0a%
+0b%
+0c%
+0d%
+1e%
+0f%
+0g%
+0h%
+0i%
+0j%
+0k%
+0l%
+0m%
+0n%
+0o%
+0p%
+0q%
+0r%
+0s%
+0t%
+0u%
+0v%
+0w%
+0x%
+1y%
+1z%
+0{%
+0|%
+0}%
+0~%
+0!&
+0"&
+0#&
+0$&
+0%&
+0&&
+0'&
+0(&
+0)&
+0*&
+0+&
+0,&
+0-&
+0.&
+1/&
+10&
+01&
+02&
+03&
+04&
+05&
+06&
+07&
+08&
+09&
+0:&
+0;&
+0<&
+0=&
+0>&
+0?&
+1@&
+0A&
+0B&
+0C&
+0D&
+0E&
+0F&
+0G&
+0H&
+0I&
+0J&
+0K&
+0L&
+0M&
+0N&
+0O&
+0P&
+0Q&
+0R&
+0S&
+0T&
+0U&
+1V&
+1W&
+0X&
+0Y&
+0Z&
+0[&
+0\&
+0]&
+0^&
+0_&
+0`&
+0a&
+0b&
+0c&
+0d&
+0e&
+0f&
+0g&
+0h&
+1i&
+1j&
+0k&
+0l&
+1m&
+1n&
+1o&
+1p&
+1q&
+0r&
+0s&
+1t&
+0u&
+0v&
+0w&
+0x&
+0y&
+0z&
+0{&
+0|&
+0}&
+0~&
+1!'
+1"'
+0#'
+0$'
+0%'
+0&'
+0''
+0('
+0)'
+0*'
+0+'
+0,'
+1-'
+0.'
+1/'
+00'
+01'
+02'
+03'
+04'
+05'
+06'
+07'
+08'
+09'
+0:'
+0;'
+0<'
+0='
+0>'
+0?'
+0@'
+0A'
+1B'
+1C'
+0D'
+0E'
+0F'
+0G'
+0H'
+0I'
+0J'
+0K'
+0L'
+0M'
+0N'
+0O'
+0P'
+0Q'
+1R'
+0S'
+0T'
+0U'
+0V'
+0W'
+0X'
+1Y'
+0Z'
+0['
+0\'
+0]'
+0^'
+0_'
+0`'
+0a'
+0b'
+0c'
+0d'
+0e'
+0f'
+1g'
+1h'
+0i'
+0j'
+0k'
+0l'
+0m'
+0n'
+0o'
+0p'
+0q'
+0r'
+0s'
+0t'
+0u'
+0v'
+1w'
+0x'
+0y'
+1z'
+0{'
+0|'
+0}'
+0~'
+0!(
+0"(
+0#(
+0$(
+1%(
+1&(
+0'(
+1((
+1)(
+0*(
+0+(
+0,(
+0-(
+0.(
+0/(
+00(
+01(
+02(
+03(
+14(
+15(
+06(
+07(
+18(
+09(
+0:(
+0;(
+0<(
+0=(
+0>(
+0?(
+0@(
+0A(
+0B(
+0C(
+0D(
+0E(
+0F(
+0G(
+0H(
+1I(
+1J(
+1K(
+1L(
+1M(
+1N(
+0O(
+0P(
+0Q(
+1R(
+1S(
+1T(
+zt(
+zs(
+0r(
+0q(
+zp(
+zo(
+zn(
+zm(
+zl(
+zk(
+zj(
+zi(
+zh(
+zg(
+zf(
+ze(
+zd(
+zc(
+zb(
+za(
+z`(
+z_(
+z^(
+z](
+z\(
+z[(
+zZ(
+zY(
+zX(
+zW(
+zV(
+zU(
+$end
+#530000
+b1 !
+1s
+0S(
+1D(
+1d&
+17%
+03%
+1k#
+0j#
+0b#
+1V"
+1M&
+1;&
+1(&
+1p%
+1_%
+1T%
+18%
+1t$
+1s$
+0T(
+0r
+1w$
+0t$
+0G
+1x$
+0w$
+0x$
+1!%
+1_
+15
+0!%
+0_
+05
+#1000000
