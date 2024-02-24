@@ -1,0 +1,274 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus/ECE550/Processor/Processor/simulation/modelsim
+valu
+Z1 !s110 1699215614
+!i10b 1
+!s100 CM2POFHhm`MRQRPIcjMQG0
+In>nzzQ0bMQiCZY`O6@d=T2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1699202088
+8D:/Quartus/ECE550/Processor/Processor/alu.v
+FD:/Quartus/ECE550/Processor/Processor/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1699215614.000000
+!s107 D:/Quartus/ECE550/Processor/Processor/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor
+Z7 tCvgOpt 0
+vclk_div2
+R1
+!i10b 1
+!s100 [NbXCgEoOnm3N5FF=`YFZ2
+I]^ZOZKoS]=WQ]jdb[mf8H0
+R2
+R0
+w1699212353
+8D:/Quartus/ECE550/Processor/Processor/clk_div2.v
+FD:/Quartus/ECE550/Processor/Processor/clk_div2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/clk_div2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/clk_div2.v|
+!i113 1
+R5
+R6
+R7
+vclk_div4_p
+R1
+!i10b 1
+!s100 LK7@<aeG6Z@I8kVlAdE7N2
+IWETY<7?zcH=bR[OGjk<<A1
+R2
+R0
+w1699096596
+8D:/Quartus/ECE550/Processor/Processor/clk_div4_p.v
+FD:/Quartus/ECE550/Processor/Processor/clk_div4_p.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/clk_div4_p.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/clk_div4_p.v|
+!i113 1
+R5
+R6
+R7
+vcontrol
+R1
+!i10b 1
+!s100 J>B7S1==zbe;j:0_1_HT]1
+IlO`3@B4eAL@DaMOdLYklc2
+R2
+R0
+w1699212736
+8D:/Quartus/ECE550/Processor/Processor/control.v
+FD:/Quartus/ECE550/Processor/Processor/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/control.v|
+!i113 1
+R5
+R6
+R7
+vdecoder_32
+R1
+!i10b 1
+!s100 =HgaJZLmGD1NZOdmi6[Da1
+IP<HlS?zzFLi>DXfzjK]zK1
+R2
+R0
+w1698732366
+8D:/Quartus/ECE550/Processor/Processor/decoder_32.v
+FD:/Quartus/ECE550/Processor/Processor/decoder_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/decoder_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/decoder_32.v|
+!i113 1
+R5
+R6
+R7
+vdmem
+R1
+!i10b 1
+!s100 ALS^lL]@:lI_;U_Lb>cV31
+In>>fD6;>b[KgAJ10JJKFo1
+R2
+R0
+w1698893136
+8D:/Quartus/ECE550/Processor/Processor/dmem.v
+FD:/Quartus/ECE550/Processor/Processor/dmem.v
+Z8 L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/dmem.v|
+!i113 1
+R5
+R6
+R7
+vimem
+R1
+!i10b 1
+!s100 lz44KX8W3KFO`b7fMNQ<83
+Io;C11fMG:4@fzIe=jn;LI0
+R2
+R0
+w1698914058
+8D:/Quartus/ECE550/Processor/Processor/imem.v
+FD:/Quartus/ECE550/Processor/Processor/imem.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/imem.v|
+!i113 1
+R5
+R6
+R7
+vpc_counter
+R1
+!i10b 1
+!s100 CFj`_lXj@iZSo6QjhGB2T3
+INf65P1Z0`UHEM8WZc>9BU1
+R2
+R0
+w1699095531
+8D:/Quartus/ECE550/Processor/Processor/pc_counter.v
+FD:/Quartus/ECE550/Processor/Processor/pc_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/pc_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/pc_counter.v|
+!i113 1
+R5
+R6
+R7
+vprocessor
+R1
+!i10b 1
+!s100 ^DJB6FL7YO==UNI[aU6e41
+Io`giZ8A0=A<oLnI:mgiGH0
+R2
+R0
+w1699214500
+8D:/Quartus/ECE550/Processor/Processor/processor.v
+FD:/Quartus/ECE550/Processor/Processor/processor.v
+L0 50
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/processor.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R1
+!i10b 1
+!s100 0:YPIaV=lW7m<nLAgjko]3
+I>d28oTY4VXKJd1EUP^OL;1
+R2
+R0
+w1699018077
+8D:/Quartus/ECE550/Processor/Processor/regfile.v
+FD:/Quartus/ECE550/Processor/Processor/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/regfile.v|
+!i113 1
+R5
+R6
+R7
+vskeleton
+R1
+!i10b 1
+!s100 63cGT?d2UMi7UP=_F:cH=2
+I^Q=>:l:XISb<Q@n0fhA8d3
+R2
+R0
+w1699215454
+8D:/Quartus/ECE550/Processor/Processor/skeleton.v
+FD:/Quartus/ECE550/Processor/Processor/skeleton.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/skeleton.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/skeleton.v|
+!i113 1
+R5
+R6
+R7
+vskeleton_test_tb
+R1
+!i10b 1
+!s100 D0[EA[;VXG5og8FI436K13
+IeVhe7@Ih1j8MF<QWZFBBN2
+R2
+R0
+w1699214361
+8D:/Quartus/ECE550/Processor/Processor/skeleton_test_tb.v
+FD:/Quartus/ECE550/Processor/Processor/skeleton_test_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Quartus/ECE550/Processor/Processor/skeleton_test_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/ECE550/Processor/Processor|D:/Quartus/ECE550/Processor/Processor/skeleton_test_tb.v|
+!i113 1
+R5
+R6
+R7

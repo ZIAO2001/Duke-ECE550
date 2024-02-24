@@ -1,0 +1,20 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/imem.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/dmem.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/skeleton_test.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/skeleton.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/regfile.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/processor.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/alu.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/divide_frequency.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/decoder_32.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/pc_counter.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/mux_2_32.v}
+vlog -vlog01compat -work work +incdir+D:/Quartus/ECE550/Processor/Processor {D:/Quartus/ECE550/Processor/Processor/mux_4_32.v}
+

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Nov 05 21:48:14 2023
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : skeleton
+Top-level Entity Name : ovf
+Family : Cyclone IV E
+Device : EP4CE55F29C7
+Timing Models : Final
+Total logic elements : 0 / 55,856 ( 0 % )
+    Total combinational functions : 0 / 55,856 ( 0 % )
+    Dedicated logic registers : 0 / 55,856 ( 0 % )
+Total registers : 0
+Total pins : 70 / 375 ( 19 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

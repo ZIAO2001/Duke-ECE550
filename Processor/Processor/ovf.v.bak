@@ -1,0 +1,13 @@
+module ovf(op_setx,of,temp);
+	
+	
+	input op_setx,of;
+	output reg temp;
+	
+	always@(*) begin
+		temp = of | op_setx;
+	
+	end
+
+
+endmodule

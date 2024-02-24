@@ -1,0 +1,8 @@
+module control(opcode, Rtar, ALUinB, ALUop_ctrl, BR, Rwd, JP, DMwe, Rwe, op_R, op_addi
+	 , op_sw, op_lw, op_j, op_bne, op_jal, op_jr, op_blt, op_bex, op_setx, op_add, op_sub);
+	 
+	 
+	 
+	 
+	 
+endmoudle
